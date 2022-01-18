@@ -1,0 +1,153 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    background-color:black;
+}
+
+
+.hero-image{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,.4)), url("../images/dark_ocean.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-text {
+    color: lightgoldenrodyellow;
+    text-align: right;
+    position: absolute;
+    top: 50 px;
+    left: 70%;
+}
+
+#latin {
+    background-color: rgb(199, 215, 231);
+    height: 30 px;
+    text-align: center;
+    border: 2px solid;
+    padding: 2px;
+}
+
+.history {
+    float: left;
+    background:rgb(190, 190, 101);
+    width: 33%;
+    margin: 0px;
+    padding: 0px;
+    height: 300px;
+    border: 2px solid;
+    border-radius: 5%;
+    position: relative;
+}
+
+.history li{
+    font-family: Cambria;
+    list-style-type: disc;
+
+}
+
+#tech {
+    font-family: Arial;
+    font-size: large;
+    text-align:left;
+}
+
+#tech h1 {
+    text-align: center;
+}
+
+#warcraft {
+    height: 140px;
+    position:absolute;
+    top: 53%;
+    right: 40%;
+    border-radius: 10%;
+}
+
+#education h1 {
+    text-align: center;
+}
+
+#education{
+    font-family: Arial;
+    font-size: large;
+    list-style-type:lower-alpha;
+}
+
+article {
+    font-family: "Cambria";
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.row {
+    z-index: 1;
+    height: 550px;
+    width: 100%;
+    clear: both;
+}
+
+.first-box {
+    float: left;
+    margin-top: 2px;
+    padding: 0px;
+    position: relative;
+}
+
+.first-box p {
+    position:absolute;
+    top: 92%;
+    left: 15%;
+}
+
+#second-box {
+    float: right;
+    margin-top: 2px;
+    padding: 0px;
+    max-height: 550px;
+    overflow: hidden;
+    position: relative;
+}
+
+#second-box h3 {
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    margin: 10px;
+}
+
+.contact {
+    clear: both;
+    background-color:rgb(190, 190, 101);
+    margin: 0px;
+    padding: 0px;
+    position:relative;
+}
+.contact h1 {
+    text-align:center;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+
+form label {
+    margin: 5px 10px 5px 0;
+}
+form input {
+    margin: 5px 10px 5px 0;
+    padding: 5px;
+ }
+
+ form button {
+    padding: 10px 20px;
+ }
